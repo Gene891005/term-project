@@ -3,6 +3,7 @@
 <style>
 h1{
 	text-align: center;
+	color: white;
 }
 body{
 	background-color: black;
