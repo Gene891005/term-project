@@ -39,7 +39,7 @@ ol { display:table; margin:0 auto;}
 <body>
 <h1>自我<span style="background-color:orange; color:black">介紹</span></h1>
 <h2>個人資訊</h2>
-	<img src="cat.jpg"width="200"height="150">
+	<img src="cat.jpg" width="200" height="150">
   <ul style="list-style-type:circle">
     <li >名字:黃道均</li> 
     <li>學號:108062320</li> 
@@ -68,7 +68,7 @@ function ShowTime(){
 }
 </script>
 <body onload="ShowTime()">
-<div onclick="ChangeColor('white')" style="background-color: black;color: white; border:3px double; width:150px;height:70px;float:right;">
+<div onclick="ChangeColor('white')" style="background-color: black;color: white; border:3px double; width:150px;height:200px;float:right;">
 <div id="showbox"></div>
 </body>
 </html>
