@@ -48,7 +48,7 @@ ol { display:table; margin:0 auto;}
   </ul>
 <h2>本學期修的科目</h2>
 	<ol>
-		<li width="230"; auto> 微積分B(一)</li>
+		<li> 微積分B(一)</li>
 		<li>普通物理(一)</li>
 		<li>離散數學</li>
 		<li>計算機程式設計(一)</li>
