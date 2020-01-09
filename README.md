@@ -39,7 +39,7 @@ ol { display:table; margin:0 auto;}
 <body>
 <h1>自我<span style="background-color:orange; color:black">介紹</span></h1>
 <h2>個人資訊</h2>
-	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-0zhOXnNx6cDRR91P6SHg3MyDXy77Yne9OgsQhFOLcFlnuor9&s"width="200"height="150">
+	<img src="cat.jpg"width="200"height="150">
   <ul style="list-style-type:circle">
     <li >名字:黃道均</li> 
     <li>學號:108062320</li> 
