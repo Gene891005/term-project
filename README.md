@@ -1,39 +1,39 @@
 <html>
 <head>
 <style>
-h1{
-	text-align: center;
-	color: white;
-}
-body{
-	background-color: black;
-	color: white;
-}
-
-
-h2{
-	color: white;
-	text-align: center;
-}
-
-p{
-	font-family: verdana;
-	font-size: 20px;
-	text-align: center;
-	
-}
-
-a{
-	color:white;
-	
-}
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-ul { display:table; margin:0 auto;}
-ol { display:table; margin:0 auto;}
+	h1{
+		text-align: center;
+		color: white;
+	}
+	body {
+		background-color: black;
+		color: white;
+	}
+	h2 {
+		color: white;
+		text-align: center;
+	}
+	p {
+		font-family: verdana;
+		font-size: 20px;
+		text-align: center;	
+	}
+	a {
+		color:white;	
+	}
+	img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	ul { 
+	display:table;
+	margin:0 auto;
+	}
+	ol {
+	display:table;
+	margin:0 auto;
+	}
 </style>
 <title>自我介紹</title>
 </head>
@@ -41,12 +41,12 @@ ol { display:table; margin:0 auto;}
 <h1>自我<span style="background-color:orange; color:black">介紹</span></h1>
 <h2>個人資訊</h2>
 	<img src="cat.jpg" width="200" height="150">
-  <ul style="list-style-type:circle">
-    <li >名字:黃道均</li> 
-    <li>學號:108062320</li> 
-    <li>科系:資工</li> 
-    <li>班級:梅班</li> 
-  </ul>
+	<ul style="list-style-type:circle">
+		<li >名字:黃道均</li> 
+		<li>學號:108062320</li> 
+		<li>科系:資工</li> 
+		<li>班級:梅班</li> 
+	</ul>
 <h2>本學期修的科目</h2>
 	<ol>
 		<li> 微積分B(一)</li>
@@ -63,10 +63,10 @@ ol { display:table; margin:0 auto;}
 	<p>Instagram:<a href="https://www.instagram.com/gene891005/?hl=zh-tw">@gene891005</a></p>
 
 <script language="JavaScript">
-function ShowTime(){
-　document.getElementById('showbox').innerHTML = new Date();
-　setTimeout('ShowTime()',1000);
-}
+	function ShowTime(){
+		document.getElementById('showbox').innerHTML = new Date();
+		setTimeout('ShowTime()',1000);
+	}
 </script>
 <body onload="ShowTime()">
 <div onclick="ChangeColor('white')" style="background-color: black;color: white; border:3px double; width:200px;height:120px;float:right;">
