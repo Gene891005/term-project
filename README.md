@@ -68,7 +68,5 @@ function ShowTime(){
 }
 </script>
 <body onload="ShowTime()">
-<div onclick="ChangeColor('white')" style="background-color: black;color: white; border:3px double; width:150px;height:200px;float:right;">
+<div onclick="ChangeColor('white')" style="background-color: black;color: white; border:3px double; width:150px;height:150px;float:right;">
 <div id="showbox"></div>
-</body>
-</html>
