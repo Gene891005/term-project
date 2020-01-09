@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+	text-align: center;
+}
+body{
+	background-color: black;
+	color: white;
+}
 
-You can use the [editor on GitHub](https://github.com/Gene891005/term-project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+h2{
+	color: white;
+	text-align: center;
+}
 
-### Markdown
+p{
+	font-family: verdana;
+	font-size: 20px;
+	text-align: center;
+	
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+a{
+	color:white;
+	
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul { display:table; margin:0 auto;}
+ol { display:table; margin:0 auto;}
+</style>
+<title>自我介紹</title>
+</head>
+<body>
+<h1>自我<span style="background-color:orange; color:black">介紹</span></h1>
+<h2>個人資訊</h2>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-0zhOXnNx6cDRR91P6SHg3MyDXy77Yne9OgsQhFOLcFlnuor9&s"width="200"height="150">
+  <ul style="list-style-type:circle">
+    <li >名字:黃道均</li> 
+    <li>學號:108062320</li> 
+    <li>科系:資工</li> 
+    <li>班級:梅班</li> 
+  </ul>
+<h2>本學期修的科目</h2>
+	<ol>
+		<li width="230"; auto> 微積分B(一)</li>
+		<li>普通物理(一)</li>
+		<li>離散數學</li>
+		<li>計算機程式設計(一)</li>
+		<li>資訊系統及應用導論</li>
+		<li>大學中文</li>
+		<li>社會學導論</li>
+		<li>大一體育</li>
+	</ol>
+<h2>聯絡資訊</h2>
+	<p>E-mail:gene891005@gmail.com</p>
+	<p>Instagram:<a href="https://www.instagram.com/gene891005/?hl=zh-tw">@gene891005</a></p>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Gene891005/term-project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<script language="JavaScript">
+function ShowTime(){
+　document.getElementById('showbox').innerHTML = new Date();
+　setTimeout('ShowTime()',1000);
+}
+</script>
+<body onload="ShowTime()">
+<div onclick="ChangeColor('white')" style="background-color: black;color: white; border:3px double; width:150px;height:70px;float:right;">
+<div id="showbox"></div>
+</body>
+</html>
